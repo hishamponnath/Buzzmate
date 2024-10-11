@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1083581626403",
+    "project_id": "buzzmate-8d108",
+    "storage_bucket": "buzzmate-8d108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083581626403:android:5077a337f3fb076f07d996",
+        "android_client_info": {
+          "package_name": "com.hisham.buzzmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfkyU6fdEdfBpC_Geh6zJUmp5KaKpHQ88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
