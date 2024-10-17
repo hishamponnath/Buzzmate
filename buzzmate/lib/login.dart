@@ -1,5 +1,6 @@
 import 'package:buzzmate/CreateAccount.dart';
 import 'package:buzzmate/Methods.dart';
+import 'package:buzzmate/Screens/homeScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -109,6 +110,8 @@ class _Login_ScreenState extends State<Login_Screen> {
               setState(() {
                 isLoading = false;
               });
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => HomeScreen()));
             } else {
               print("Login Failed");
               setState(() {

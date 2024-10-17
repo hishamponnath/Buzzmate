@@ -1,4 +1,5 @@
 import 'package:buzzmate/Methods.dart';
+import 'package:buzzmate/Screens/homeScreen.dart';
 import 'package:flutter/material.dart';
 
 class CreateAccount extends StatefulWidget {
@@ -112,6 +113,8 @@ class _CreateAccountState extends State<CreateAccount> {
               setState(() {
                 isLoading = false;
               });
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => HomeScreen()));
               print("Account Created Sucessfull");
             } else {
               print("Login Failed");
